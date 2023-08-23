@@ -1,0 +1,21 @@
+{
+  "name": "govuk-vue-minimal-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.2",
+    "govuk-vue": "^1.0.0-alpha.23"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "govuk-frontend": "^4.6.0",
+    "sass": "^1.63.6",
+    "vite": "^4.3.5",
+    "vite-plugin-static-copy": "^0.16.0"
+  }
+}
