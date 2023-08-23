@@ -2,7 +2,7 @@
 
 This is a minimal example of how to start using [GOV.UK Vue](https://github.com/govuk-vue/govuk-vue).
 
-A live demo is available at [govuk-vue-minimal-example.github.io](https://govuk-vue-minimal-example.github.io).
+A live demo is available at [govuk-vue.github.io/govuk-vue-minimal-example](https://govuk-vue.github.io/govuk-vue-minimal-example).
 
 ### Running the app locally
 
