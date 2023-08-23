@@ -1,6 +1,6 @@
 {
   "name": "govuk-vue-minimal-example",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "vue": "^3.3.2",
-    "govuk-vue": "^1.0.0-alpha.23"
+    "govuk-vue": "^1.0.0-alpha.25"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
