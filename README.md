@@ -94,7 +94,7 @@ In `index.html`, replace `<head>` with the following:
 </head>
 ```
 
-Add the `govuk-template` class to `<html>` and `govuk-template__body js-enabled` to `<body>`.
+Add the `govuk-template` class to `<html>` and `govuk-template__body js-enabled govuk-frontend-supported` to `<body>`.
 
 ### Install Sass and import GOV.UK Frontend styles
 
@@ -115,7 +115,7 @@ Rename `src/assets/main.css` to `main.scss` and update the import at the top of 
 Update content of `main.scss` to:
 
 ```scss
-@import "node_modules/govuk-frontend/govuk/all";
+@import "node_modules/govuk-frontend/dist/govuk/all";
 ```
 
 Delete everything else in `main.scss`
@@ -145,7 +145,7 @@ and add the following to the `plugins` option:
 viteStaticCopy({
   targets: [
     {
-      src: 'node_modules/govuk-frontend/govuk/assets/*',
+      src: 'node_modules/govuk-frontend/dist/govuk/assets/*',
       dest: 'assets'
     }
   ]

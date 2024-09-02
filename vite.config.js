@@ -12,7 +12,7 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: 'node_modules/govuk-frontend/govuk/assets/*',
+          src: 'node_modules/govuk-frontend/dist/govuk/assets/*',
           dest: 'assets'
         }
       ]
