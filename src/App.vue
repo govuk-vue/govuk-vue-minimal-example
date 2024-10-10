@@ -26,7 +26,7 @@ function continueClicked() {
         <div class="govuk-grid-column-two-thirds">
           <h1 class="govuk-heading-xl">Welcome to GOV.UK Vue</h1>
           <p class="govuk-body-l">
-            This is a minimal example of how to set up GOV.UK Vue in a new project.
+            This is a minimal example of how to set up <a href="https://govukvue.org" class="govuk-link">GOV.UK Vue</a> in a new project. This is not a real government service.
           </p>
 
           <p class="govuk-body">
