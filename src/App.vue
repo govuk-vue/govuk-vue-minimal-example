@@ -19,15 +19,19 @@ function continueClicked() {
 </script>
 
 <template>
-  <gv-header/>
+  <gv-header :rebrand="true"/>
   <div class="govuk-width-container">
     <main class="govuk-main-wrapper">
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
           <h1 class="govuk-heading-xl">Welcome to GOV.UK Vue</h1>
           <p class="govuk-body-l">
-            This is a minimal example of how to set up GOV.UK Vue in a new project.
+            This is a minimal example of how to set up <a href="https://govukvue.org/" class="govuk-link">GOV.UK Vue</a> in a new project.
           </p>
+
+          <gv-warning-text>
+            This is not a real government service. Visit <a href="https://gov.uk/" class="govuk-link">GOV.UK</a> to find government services and information.
+          </gv-warning-text>
 
           <p class="govuk-body">
             The rest of this page contains examples of GOV.UK Vue components.
@@ -47,5 +51,5 @@ function continueClicked() {
       </div>
     </main>
   </div>
-  <gv-footer/>
+  <gv-footer :show-crown="true"/>
 </template>
